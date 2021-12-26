@@ -1,1 +1,495 @@
-<h1>Hello</h1>
+<html manifest="offline.appcache"><head><meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="GENERATOR" content="SpreadsheetConverter  version 10.3.7812.0">
+<!-- The parts of this webpage that is defined by the original spreadsheet have the same copyright as the original spreadsheet. -->
+<!-- The generic Excel-related parts of this page is Copyright (C) 2002-2020 Framtidsforum I&M AB, Sweden. -->
+    <title>hilton-honors-point-calculator-300720</title>
+    <link rel="stylesheet" href="assets/css/theme-ssc-1567735141.min.css" id="ssc-theme">
+    <link rel="stylesheet" href="assets/css/app.min.css">
+    </head>
+    <body onload="LoadFromQueryString();recalc_onclick('');" onunload="" browserstorage="false">
+        <noscript style="color:#F15623;">
+            This web page contains a live and functional spreadsheet created with <a href='https://www.spreadsheetconverter.com'>SpreadsheetConverter</a>. Please enable JavaScript in your web browser for the live calculations to work properly.
+        </noscript>
+        <form id="formc" name="formc" method="post" action="" target="_self"><div id="formsaving" style="background-color: #FFD76E;position: fixed; left: 50%; top: 10px;z-index: 1000000; padding-left: 1em;padding-right: 1ex;text-align: center; border: 1px solid #E4C471;border-radius: 2px;" class="hideme">saving form...</div>
+		    <input type="hidden" id="xl_spreadsheet" name="xl_spreadsheet" value="hilton-honors-point-calculator-300720">
+            <input type="hidden" id="xl_client" name="xl_client" value="x10.3.7812.0">
+<div id="tab" class="tab-content">
+
+                 <div id="sheet-1" style="padding: 1em 1.4em;" class=" active">
+                    <div class="container-fluid  ">
+<section class="">
+<table cellspacing="0" cellpadding="0" style="border-spacing:0;" onkeydown="javascript:navigate(event);">
+					<colgroup><col width="213">
+					<col width="229">
+                    </colgroup><tbody><tr style="height:13pt;">
+						<td class="ee100" style="height:13pt;" colspan="2">
+							Hilton Honors Point Calculator
+						</td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee112" style="height:13pt;">
+							Your Stay
+						</td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;">
+							Hotel Brand
+						</td>
+						<td class="ee115" style="height:13pt;">
+						    <fieldset id="FS1$Brand" style="border:0;padding:0;">
+							    <select name="Brand" id="Brand" class="ee111 form-control" style=" width:100% ; padding-left:4px; padding-right:2px;" tabindex="1" onchange="recalc_onclick('Brand')" size="1" data-sheet="1" data-row="5" data-col="2">
+									<option data-value="s:Canopy">Canopy</option>
+									<option data-value="s:Conrad">Conrad</option>
+									<option data-value="s:Curio Collection">Curio Collection</option>
+									<option data-value="s:DoubleTree">DoubleTree</option>
+									<option data-value="s:Embassy Suites">Embassy Suites</option>
+									<option data-value="s:Hampton">Hampton</option>
+									<option data-value="s:Hilton">Hilton</option>
+									<option data-value="s:Hilton Garden Inn">Hilton Garden Inn</option>
+									<option data-value="s:Hilton Grand Vacations">Hilton Grand Vacations</option>
+									<option data-value="s:Home2 Suites">Home2 Suites</option>
+									<option data-value="s:Homewood Suites">Homewood Suites</option>
+									<option data-value="s:LXR Hotels and Resorts">LXR Hotels and Resorts</option>
+									<option data-value="s:Motto">Motto</option>
+									<option data-value="s:Signia Hilton">Signia Hilton</option>
+									<option data-value="s:Tapestry Collection">Tapestry Collection</option>
+									<option data-value="s:Tru">Tru</option>
+									<option data-value="s:Waldorf Astoria">Waldorf Astoria</option>
+							    </select>
+						    </fieldset>
+						</td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;">
+							Nights
+						</td>
+						<td class="ee115" style="height:13pt;">
+							<input id="Nights" type="text" value="0" class="ee111 form-control" style="width:100%" onchange="this.value=eedisplayFloatND(eeparseFloat(this.value),0);recalc_onclick('Nights')" name="Nights" placeholder="0" tabindex="2" data-sheet="1" data-row="7" data-col="2" data-com.bitwarden.browser.user-edited="yes">
+						</td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;">
+							Room Rate per Night
+						</td>
+						<td class="ee115" style="height:13pt;">
+							<input id="Tax" type="text" value="0.00" class="ee111 form-control" style="width:100%" onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),2);recalc_onclick('Tax')" name="Tax" placeholder="" tabindex="3" data-sheet="1" data-row="9" data-col="2" data-com.bitwarden.browser.user-edited="yes">
+						</td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;">
+							Taxes per Night
+						</td>
+						<td class="ee115" style="height:13pt;">
+							<input id="Rate" type="text" value="0.00" class="ee111 form-control" style="width:100%" onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),2);recalc_onclick('Rate')" name="Rate" placeholder="Nightly Rate" tabindex="4" data-sheet="1" data-row="11" data-col="2" data-com.bitwarden.browser.user-edited="yes">
+						</td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee116" style="height:13pt;">
+							earns points with co-branded
+  card
+						</td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;">
+							Other Folio Charges for Stay
+						</td>
+						<td class="ee115" style="height:13pt;">
+							<input id="Folio" type="text" value="0.00" class="ee111 form-control" style="width:100%" onchange="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),2);recalc_onclick('Folio')" name="Folio" placeholder="0" tabindex="5" data-sheet="1" data-row="14" data-col="2">
+						</td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee116" style="height:13pt;">
+							e.g., meals, laundry, etc.
+						</td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee112" style="height:13pt;">
+							Your Status and Preferences
+						</td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;">
+							Hilton Honors Elite Status
+  Level
+						</td>
+						<td class="ee115" style="height:13pt;">
+						    <fieldset id="FS1$EliteStatus" style="border:0;padding:0;">
+							    <select name="EliteStatus" id="EliteStatus" class="ee111 form-control" style=" width:100% ; padding-left:4px; padding-right:2px;" tabindex="6" onchange="recalc_onclick('EliteStatus')" size="1" data-sheet="1" data-row="19" data-col="2">
+									<option data-value="s:None">None</option>
+									<option data-value="s:Diamond">Diamond</option>
+									<option data-value="s:Gold">Gold</option>
+									<option data-value="s:Silver">Silver</option>
+							    </select>
+						    </fieldset>
+						</td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;">
+							MyWay Hotel Benefits
+						</td>
+						<td class="ee115" style="height:13pt;">
+						    <fieldset id="FS1$MyWay" style="border:0;padding:0;">
+							    <select name="MyWay" id="MyWay" class="ee111 form-control" style=" width:100% ; padding-left:4px; padding-right:2px;" tabindex="7" onchange="recalc_onclick('MyWay')" size="1" data-sheet="1" data-row="21" data-col="2">
+									<option data-value="s:Points">Points</option>
+									<option data-value="s:Food">Food</option>
+									<option data-value="s:Other">Other</option>
+									<option data-value="s:Not Applicable">Not Applicable</option>
+							    </select>
+						    </fieldset>
+						</td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee116" style="height:13pt;">
+							welcome amenity at certain
+  brands
+						</td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee116" style="height:13pt;">
+							for Gold and Diamond
+						</td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee112" style="height:13pt;">
+							Seasonal Promotions
+						</td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee119" style="height:13pt;">
+							<a href="https://www.hiltonhonors.com/en_US/20200106_2011/landing/" target="" style="text-decoration:none;">
+		                        							<input id="XLEW_1_27_1" type="text" value="https://www.hiltonhonors.com/en_US/20200106_2011/landing/" class="ee121" style="overflow: hidden; border: 0px solid rgb(0, 0, 0); width: 100%; background: transparent;" readonly="" onchange="recalc_onclick('XLEW_1_27_1')" name="XLEW_1_27_1" placeholder="" tabindex="-1">
+                            </a>
+						</td>
+						<td class="ee115" style="height:13pt;">
+						    <fieldset id="FS1$Promo" style="border:0;padding:0;">
+							    <select name="Promo" id="Promo" class="ee111 form-control" style=" width:100% ; padding-left:4px; padding-right:2px;" tabindex="8" onchange="recalc_onclick('Promo')" size="1" data-sheet="1" data-row="27" data-col="2">
+									<option data-value="s:Yes (2,000 points)">Yes (2,000 points)</option>
+									<option data-value="s:Yes (2,000 points + 10,000 points)">Yes (2,000 points + 10,000 points)</option>
+									<option data-value="s:No">No</option>
+							    </select>
+						    </fieldset>
+						</td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee116" style="height:13pt;">
+							2,000 bonus points per stay +
+						</td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee116" style="height:13pt;">
+							10,000 bonus points every 10
+  nights
+						</td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee116" style="height:13pt;">
+							Jan. 6, 2020 through Sept. 7,
+  2020
+						</td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee116" style="height:13pt;">
+							registration required
+						</td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee112" style="height:13pt;">
+							Co-Branded Credit Card
+						</td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;">
+							Pay with Co-Branded Credit
+  Card
+						</td>
+						<td class="ee115" style="height:13pt;">
+						    <fieldset id="FS1$AMEX" style="border:0;padding:0;">
+							    <select name="AMEX" id="AMEX" class="ee111 form-control" style=" width:100% ; padding-left:4px; padding-right:2px;" tabindex="9" onchange="recalc_onclick('AMEX')" size="1" data-sheet="1" data-row="35" data-col="2">
+									<option data-value="s:No">No</option>
+									<option data-value="s:AMEX HH Aspire">AMEX HH Aspire</option>
+									<option data-value="s:AMEX HH Surpass">AMEX HH Surpass</option>
+									<option data-value="s:AMEX HH">AMEX HH</option>
+							    </select>
+						    </fieldset>
+						</td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee116" style="height:13pt;">
+							HH = Hilton Honors
+						</td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee122" style="height:13pt;">
+							Results
+						</td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee112" style="height:13pt;">
+							Total Hilton Honors Points
+  Earned
+						</td>
+						<td class="ee125" style="height:13pt;">
+						<input id="XLEW_1_40_2" type="text" readonly="readonly" value="0" class="ee125" style="overflow: hidden; border: 0px solid rgb(0, 0, 0); width: 100%; background: transparent;" name="XLEW_1_40_2" tabindex="-1">
+						</td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;">
+							Estimated Value of Points
+  Earned
+						</td>
+						<td class="ee115" style="height:13pt;">
+						<input id="XLEW_1_42_2" type="text" readonly="readonly" value="-" class="ee115" style="overflow: hidden; border: 0px solid rgb(0, 0, 0); width: 100%; background: transparent;" name="XLEW_1_42_2" tabindex="-1">
+						</td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;">
+							Points Earned per $1 on Room
+  Rate
+						</td>
+						<td class="ee115" style="height:13pt;">
+						<input id="XLEW_1_44_2" type="text" readonly="readonly" value="0" class="ee115" style="overflow: hidden; border: 0px solid rgb(0, 0, 0); width: 100%; background: transparent;" name="XLEW_1_44_2" tabindex="-1">
+						</td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee116" style="height:13pt;">
+							including increased earning
+  rate from
+						</td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee116" style="height:13pt;">
+							elite status, seasonal
+  promotion, and
+						</td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee116" style="height:13pt;">
+							co-branded credit card
+						</td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee112" style="height:13pt;">
+							Detailed Results
+						</td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;">
+							Base Points Earned (5x or
+  10x)
+						</td>
+						<td class="ee115" style="height:13pt;">
+						<input id="XLEW_1_51_2" type="text" readonly="readonly" value="0" class="ee115" style="overflow: hidden; border: 0px solid rgb(0, 0, 0); width: 100%; background: transparent;" name="XLEW_1_51_2" tabindex="-1">
+						</td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee116" style="height:13pt;">
+							100,000 maximum at some
+  brands
+						</td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;">
+							Elite Status Bonus
+						</td>
+						<td class="ee115" style="height:13pt;">
+						<input id="XLEW_1_54_2" type="text" readonly="readonly" value="0" class="ee115" style="overflow: hidden; border: 0px solid rgb(0, 0, 0); width: 100%; background: transparent;" name="XLEW_1_54_2" tabindex="-1">
+						</td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;">
+							MyWay Bonus
+						</td>
+						<td class="ee115" style="height:13pt;">
+						<input id="XLEW_1_56_2" type="text" readonly="readonly" value="" class="ee115" style="overflow: hidden; border: 0px solid rgb(0, 0, 0); width: 100%; background: transparent;" name="XLEW_1_56_2" tabindex="-1">
+						</td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;">
+							Seasonal Promotion Bonus
+						</td>
+						<td class="ee115" style="height:13pt;">
+						<input id="XLEW_1_58_2" type="text" readonly="readonly" value="0" class="ee115" style="overflow: hidden; border: 0px solid rgb(0, 0, 0); width: 100%; background: transparent;" name="XLEW_1_58_2" tabindex="-1">
+						</td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;">
+							Co-Branded Credit Card Bonus
+						</td>
+						<td class="ee115" style="height:13pt;">
+						<input id="XLEW_1_60_2" type="text" readonly="readonly" value="0" class="ee115" style="overflow: hidden; border: 0px solid rgb(0, 0, 0); width: 100%; background: transparent;" name="XLEW_1_60_2" tabindex="-1">
+						</td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee116" style="height:13pt;">
+							including points earned on
+						</td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee116" style="height:13pt;">
+							tax and ineligible folio
+  spending
+						</td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;" colspan="2">
+							Hilton Honors is a
+  trademark of Hilton, Inc.
+						</td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;" colspan="2">
+							Information
+  provided "as-is" with no warranties, express or implied.
+						</td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;" colspan="2">
+							Accuracy and
+  completeness of the information provided is not guaranteed.
+						</td>
+                    </tr>
+                    <tr style="height:13pt;">
+						<td class="ee106" style="height:13pt;"><div style="overflow:hidden"></div></td>
+						<td class="ee109" style="height:13pt;"><div style="overflow:hidden"></div></td>
+                    </tr>
+                </tbody></table>
+
+              </section>
+</div>
+                </div>
+            </div>
+        <!-- Modal -->    <div class="modal fade" id="onlinefom-submit-conformation-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">    <div class="modal-dialog modal-sm">    <div class="modal-content">    <div class="modal-body">    <span class="glyphicon glyphicon-send form-submit"></span>    <p class="info">The form is being submitted.</p>    </div>    </div>    </div>    </div>        <!-- Modal -->    <div class="modal fade" id="onlineform-submit-status-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">    <div class="modal-dialog modal-sm">    <div class="modal-content">    <div class="modal-header">    <h4 class="modal-title">form submit</h4>    </div>    <div class="modal-body">    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->    <span class="glyphicon glyphicon-warning-sign status-icon"></span>    <p class="info">The form is being submitted.</p>    </div>    <div class="modal-footer">    <button type="button" class="btn btn-link" id="onlineform-submit-status-modal-close-btn" style="margin-left:4px">Close</button>    </div>    </div>    </div>    </div>        <!-- Modal -->    <div class="modal fade" id="offlineforms-save-conformation-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">    <div class="modal-dialog modal-sm">    <div class="modal-content">    <div class="modal-header">    <h4 class="modal-title">Save until online</h4>    </div>    <div class="modal-body">    <span class="glyphicon glyphicon-save status-icon" style="color:brown"></span>    <p class="info">You are currently offline and the submit failed. Do you want to save the submit and send it later when you are online.</p>    <p class="conform">Do you want to save?</p>    </div>    <div class="modal-footer">    <button type="button" id="offlineforms-save-conformation-yes-btn" class="btn btn-default" onclick="offlineforms_save_conformation_yes_btn_click()" data-loading-text="Done">Yes</button>    <button type="button" class="btn btn-link" onclick="$(&quot;#offlineforms-save-conformation-modal&quot;).modal(&quot;hide&quot;);return false;" style="margin-left:4px">No</button>    </div>    </div>    </div>    </div>        <!-- Modal -->    <div class="modal fade" id="offlineforms-submit-conformation-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">    <div class="modal-dialog modal-sm">    <div class="modal-content">    <div class="modal-header">    <h4 class="modal-title">Offline forms submit confirmation</h4>    </div>    <div class="modal-body">    <span class="glyphicon glyphicon-export status-icon" style="color:brown"></span>    <p class="info">There are Offline form(s), which are now ready to submit in server.</p>    <p class="conform">Do you want to submit?</p>    </div>    <div class="modal-footer">    <button type="button" id="offlineforms-submit-conformation-yes-btn" class="btn btn-default" onclick="offlineforms_submit_conformation_yes_btn_click()" data-loading-text="submitting...">Yes</button>    <button type="button" class="btn btn-link" onclick="$(&quot;#offlineforms-submit-conformation-modal&quot;).modal(&quot;hide&quot;);return false;" style="margin-left:4px">No</button>    </div>    </div>    </div>    </div>        <!-- Modal -->    <div class="modal fade" id="offlineforms-submit-status-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">    <div class="modal-dialog modal-sm">    <div class="modal-content">    <div class="modal-header">    <h4 class="modal-title">Offline Form submit failed</h4>    </div>    <div class="modal-body">    <span class="glyphicon glyphicon-warning-sign status-icon" style="color:rgb(198,0,0)"></span>    <p class="info">Unable to connect to the Internet. Please try submitting the offline forms later in internet connection.</p>    </div>    <div class="modal-footer">    <button type="button" id="offlineforms-submit-status-modal-close-btn" class="btn btn-link" style="margin-left:4px">Close</button>    </div>    </div>    </div>    </div></form>
+        <section class="row toolbar toolbar-position-bottom no-print">
+            
+            <div class="toolbar-panel-right col-xs-12 col-sm-12 col-md-5 col-md-push-6">    <div id="offlineforms-submit" class="hideme">        <button id="offlineforms-submit-btn" type="button" class="btn btn-offlineforms-submit btn-sm">        <span class="offlineforms-logo"></span><span>Offline Forms</span>        <span id="x1" class="badge badge-offlineforms-submit">0</span>        </button>    </div>
+                <section id="ssc-ls"></section>
+            </div><div class="toolbar-panel-left col-xs-12 col-sm-11 col-md-6 col-md-pull-5">
+                <button class="btn btn-sm button-update"><span class="glyphicon glyphicon-repeat"></span><span class="btn-label btn-label-right">Update</span></button>
+</div>
+       </section>
+    
+    <script type="text/javascript" src="assets/js/app.min.js"></script>
+</body></html>
