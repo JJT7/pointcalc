@@ -19,7 +19,7 @@
 
   <button type="button">Calculate cost</button>
 
-  <p>Cents per point value: <span class="totalprice" style="font-weight: bold"></span></p>
+  <p>Cents per point value: <span class="pointvalue" style="font-weight: bold"></span></p>
   On average Hilton Honors points are worth 0.5-0.6 cents. If the above value is greather than 0.5, then it is a good value. <br><br>
 
   5th night is free when paying with all points (so best value is to only redeem for 5 night stays).
@@ -32,17 +32,17 @@ $('#price-calculator').on('click', 'button', function(e) {
   var cash = $("#cash").val();
   console.log(cash);
 
-  var points = $("#hours").val();
+  var points = $("#points").val();
   console.log(points);
 
-  var totalCost = (cash / points) * 100;
+  var pointValue = (cash / points) * 100;
 
-  $('.totalprice').text(totalCost.toFixed(2));
+  $('.pointvalue').text(pointValue.toFixed(2));
 
-  if (totalCost.toFixed(2) < 0.5) {
-    $('.totalprice').css('color', 'red');
+  if (pointValue.toFixed(2) < 0.5) {
+    $('.pointvalue').css('color', 'red');
   } else {
-    $('.totalprice').css('color', 'green');
+    $('.pointvalue').css('color', 'green');
   }
 });
 </script>
